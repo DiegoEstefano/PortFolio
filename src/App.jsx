@@ -81,7 +81,7 @@ function App() {
           </div>
 
           <div className=" m-auto lg:flex lg:max-w-4xl gap-10">
-            <div className="text-center shadow-lg p-10 lg:h-80 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10  rounded-xl my-10">
               <img className="m-auto" src={react} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2">React</h3>
               <p>
@@ -90,7 +90,7 @@ function App() {
               </p>
             </div>
 
-            <div className="text-center shadow-lg p-10 lg:h-80 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10  rounded-xl my-10">
               <img className="m-auto" src={js} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2">JS</h3>
               <p>
@@ -99,7 +99,7 @@ function App() {
               </p>
             </div>
 
-            <div className=" text-center shadow-lg p-10 lg:h-80 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
               <img className="m-auto" src={html} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2">HTML & CSS</h3>
               <p>
