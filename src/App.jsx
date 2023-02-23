@@ -6,9 +6,10 @@ import WantToLearn from "./components/WantTolearn";
 import Footer from "./components/Footer";
 import PortiFolio from "./components/PortiFolio";
 
+
 function App() {
   return (
-    <div className="bg-white px-10 md:px-40 lg:px-60">
+    <div className="bg-white px-10 md:px-40 lg:px-60 dark:bg-black">
       <NavBar />
       <DevContainer />
       <SocialMedia />

@@ -31,7 +31,7 @@ export default function PortiFolio() {
     <>
       <div className="text-center">
         <h3 className="text-3xl py-1">Portfolio</h3>
-        <p className="text-md py-2 mb-5 leading-8 text-gray-800">
+        <p className="text-md py-2 mb-5 leading-8 text-gray-800 dark:text-white">
           Aqui estão alguns projetos que desenvolvi ou que ainda estou
           desenvolvendo.
         </p>

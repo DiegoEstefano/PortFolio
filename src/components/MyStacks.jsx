@@ -22,16 +22,16 @@ export default function MyStacks() {
 
     return (
         <>
-            <div className="text-center m-auto lg:max-w-3xl">
+            <div className="text-center m-auto lg:max-w-3xl dark:text-white">
                 <h3 className="text-3xl py-1">Minhas Stacks</h3>
-                <p className="text-md py-2 leading-8 text-gray-800 ">
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-white ">
                     Desde de que eu comecei a minha jornada como desenvolvedor venho
                     buscando todos os dias aprender e por em prática várias
                     tecnologias.
                 </p>
             </div>
 
-            <div className=" m-auto lg:flex lg:max-w-3xl gap-10">
+            <div className=" m-auto lg:flex lg:max-w-3xl gap-10 dark:text-white">
 
                 {stacks.map((stack, i) => (
                     <StackCard tec={stack.tec} img={stack.img} text={stack.text} key={i} />

@@ -20,15 +20,14 @@ export default function WantToLearn() {
     ]
     return (
         <>
-            <div className="text-center">
+            <div className="text-center dark:text-white">
                 <h3 className="text-3xl py-1">Desejo aprender</h3>
-                <p className="text-md py-2 leading-8 text-gray-800 ">
-                    Aqui estão algumas tecnologias que desejo aprender a curto prazo.
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-white"> Aqui estão algumas tecnologias que desejo aprender a curto prazo.
                 </p>
             </div>
 
 
-            <div className=" m-auto lg:flex lg:max-w-3xl gap-10">
+            <div className=" m-auto lg:flex lg:max-w-3xl gap-10 dark:text-white">
 
                 {stacks.map((stack, i) => (
                     <StackCard tec={stack.tec} img={stack.img} text={stack.text} key={i} />
