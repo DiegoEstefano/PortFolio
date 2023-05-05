@@ -1,4 +1,4 @@
-import web1 from "../../public/web1.png";
+
 
 export default function PortiCard({ link, img }) {
     return (

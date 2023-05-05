@@ -8,9 +8,9 @@ export default function PortiFolio() {
       img: "https://github.com/DiegoEstefano/PortFolio/blob/main/public/web1.png?raw=true"
     },
     {
-      projeto: "Embreve",
-      link: "#",
-      img: "https://github.com/DiegoEstefano/PortFolio/blob/main/public/web2.png?raw=true"
+      projeto: "Pokédex",
+      link: "https://poke-dex-neon.vercel.app/",
+      img: "https://user-images.githubusercontent.com/81423690/236570643-43ee0a34-12bd-4f58-b7d2-5f3c7e3e8c15.png"
     },
 
     {
@@ -40,7 +40,7 @@ export default function PortiFolio() {
       <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
 
         {projects.map((project, i) => (
-          <PortiCard link={project.link} img={project.img} key={i} />
+          <PortiCard link={project.link}  img={project.img} key={i} />
         ))}
 
       </div>
