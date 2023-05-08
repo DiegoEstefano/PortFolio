@@ -9,7 +9,7 @@ export default function PortiFolio() {
     },
     {
       projeto: "Pokédex",
-      link: "https://poke-dex-neon.vercel.app/",
+      link: "https://poke-dex-swart-ten.vercel.app/",
       img: "https://user-images.githubusercontent.com/81423690/236570643-43ee0a34-12bd-4f58-b7d2-5f3c7e3e8c15.png"
     },
 
