@@ -10,9 +10,19 @@ export default function PortiFolio() {
     {
       projeto: "Pokédex",
       link: "https://poke-dex-swart-ten.vercel.app/",
-      img: "https://user-images.githubusercontent.com/81423690/236570643-43ee0a34-12bd-4f58-b7d2-5f3c7e3e8c15.png"
+      img: "https://user-images.githubusercontent.com/81423690/243108851-6524f8e3-9af8-4da4-a6aa-f6f138c99587.png"
     },
 
+    {
+      projeto: "ApiMln",
+      link: "https://apimln.vercel.app/",
+      img: "https://user-images.githubusercontent.com/81423690/243108996-500d3661-b084-4d00-8d92-719085010b6a.png"
+    },
+    {
+      projeto: "WatchList",
+      link: "https://watchilist.vercel.app/",
+      img: "https://user-images.githubusercontent.com/81423690/243109071-5625ba76-cfb0-472d-a035-a12956a2d2b3.png"
+    },
     {
       projeto: "Embreve",
       link: "#",
