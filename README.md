@@ -1,5 +1,5 @@
 # PortFolio
-Portfolio Pessoal
+Personal portfolio 
 
 #LINK
 https://port-folio-orpin.vercel.app/
